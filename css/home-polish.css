@@ -25,14 +25,3 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible{outline:2px sol
 @media(min-width:992px){.loc-intro-s_img .img{aspect-ratio:1489/1853;height:auto}}
 /* Prominent Projects navigation without changing the homepage composition. */
 a[aria-label="Projects Gallery"].nav-item{padding:10px 16px;border:1px solid currentColor;border-radius:30px;min-height:40px;margin-bottom:9px;background:#17233b24;backdrop-filter:blur(8px)}a[aria-label="Projects Gallery"].nav-item .l2{font-size:clamp(12px,1vw,16px);letter-spacing:.12em}a[aria-label="Projects Gallery"].nav-item:hover{background:#17233b55}a[aria-label="Projects Gallery"].link .h6{font-size:clamp(30px,7vw,48px)}
-
-/* Keep the cinematic hero transition while bringing the next section into view sooner. */
-.hero-scroll-area{height:210svh!important}
-
-/* Reveal more of the background photography below the animated cloud layer. */
-.loc-w_bg{padding-top:clamp(48px,6vw,96px)}
-
-/* Appointment booking is no longer part of the portfolio experience. */
-[data-modal-cta-btn="book-a-call"],[data-modal-cta="book-a-call"]{display:none!important}
-
-@media(max-width:991px){.hero-scroll-area{height:165svh!important}.loc-w_bg{padding-top:56px}}
