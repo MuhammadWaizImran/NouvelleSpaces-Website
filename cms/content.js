@@ -31,7 +31,7 @@ function render(page,content,preview=false) {
 
   for(const [tab,key] of [['day','day'],['night','night']]) {
    const re=new RegExp(`<video([^>]*data-hero-video="${tab}"[^>]*)>[\\s\\S]*?<\\/video>`);
-   html=html.replace(re,(_,attrs)=>`<video${attrs.replace(/ poster="[^"]*"/,'')} poster="${esc(settings[key+'Poster'])}"><source src="${esc(settings[key+'Video'])}" type="video/mp4"></video>`);
+   html=html.replace(re,(_,attrs)=>`<video${attrs.replace(/ poster="[^"]*"/,'').replace(/\sloop\b/,'').replace(/preload="[^"]*"/,'preload="auto"')} poster="${esc(settings[key+'Poster'])}"><source src="${esc(settings[key+'Video'])}" type="video/mp4"></video>`);
   }
  } else {
   html=html.replace('</head>','<script src="/js/gallery-loader.js" defer></script></head>');

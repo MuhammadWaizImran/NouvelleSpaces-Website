@@ -6,6 +6,7 @@
   let visible = true;
   let paused = reduced.matches;
   let active = 'day';
+  const videoOrder = ['day', 'night'];
   const playback = document.createElement('button');
   playback.className = 'ns-video-control';
   playback.type = 'button';
@@ -19,6 +20,22 @@
       } else video.pause();
     });
   }
+  function activateVideo(key, useTabAnimation = true) {
+    if (!videoOrder.includes(key)) return;
+    active = key;
+    const nextVideo = videos.find(video => video.dataset.heroVideo === key);
+    if (nextVideo) nextVideo.currentTime = 0;
+    if (useTabAnimation) hero?.querySelector(`[data-tab-trigger="${key}"]`)?.click();
+    requestAnimationFrame(syncVideos);
+  }
+  videos.forEach(video => {
+    video.loop = false;
+    video.addEventListener('ended', () => {
+      if (video.dataset.heroVideo !== active) return;
+      const currentIndex = videoOrder.indexOf(active);
+      activateVideo(videoOrder[(currentIndex + 1) % videoOrder.length]);
+    });
+  });
   playback.addEventListener('click', () => {
     paused = !paused;
     playback.textContent = paused ? 'Play film' : 'Pause film';
@@ -26,8 +43,8 @@
     syncVideos();
   });
   hero?.querySelectorAll('[data-tab-trigger]').forEach(button => button.addEventListener('click', () => {
+    active = button.dataset.tabTrigger || active;
     requestAnimationFrame(() => {
-      active = hero.querySelector('[data-tab-trigger].is-active')?.dataset.tabTrigger || active;
       syncVideos();
     });
   }));
