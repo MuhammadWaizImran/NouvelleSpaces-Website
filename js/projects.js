@@ -176,7 +176,8 @@
     touchStart = null;
   }, { passive: true });
   // Gallery links remain usable as full-size image links if the manifest cannot load.
-  fetch('/assets/projects.json' + (document.body.dataset.preview ? '?preview=1' : '')).then(response => { if (!response.ok) throw new Error('Project manifest unavailable'); return response.json(); }).then(data => {
+  const projectData = window.__NOUVELLE_PROJECTS__ ? Promise.resolve(window.__NOUVELLE_PROJECTS__) : fetch('/assets/projects.json' + (document.body.dataset.preview ? '?preview=1' : '')).then(response => { if (!response.ok) throw new Error('Project manifest unavailable'); return response.json(); });
+  projectData.then(data => {
     projects = data;
     document.querySelectorAll('[data-project]').forEach(link => link.addEventListener('click', event => {
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;

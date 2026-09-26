@@ -7,8 +7,15 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "check": "node --check js/app.js && node --check js/home-polish.js && node --check js/projects.js && node --check server.js && node --check js/admin.js && node --check cms/content.js && node --check cms/auth.js && node --check js/gallery-loader.js && node --check scripts/export-site.js",
-    "test": "node scripts/test-cms.js",
-    "build": "node scripts/export-site.js"
+    "check": "node --check js/app.js && node --check js/home-polish.js && node --check js/projects.js && node --check server.js && node --check js/admin.js && node --check cms/content.js && node --check cms/auth.js && node --check js/gallery-loader.js && node --check scripts/export-site.js && node --check api/_auth.js && node --check api/_cloud-cms.js && node --check api/site.js && node --check api/admin/[...path].js && node --check api/media/[...path].js",
+    "test": "node scripts/test-cms.js && node scripts/test-cloud-cms.js",
+    "bundle:admin": "esbuild ./scripts/admin-blob-client.js --bundle --minify --format=iife --target=es2020 --outfile=./js/blob-client.js",
+    "build": "npm run bundle:admin && node scripts/export-site.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
   }
 }

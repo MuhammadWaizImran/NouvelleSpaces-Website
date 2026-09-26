@@ -8,3 +8,5 @@ cms-data/
 .DS_Store
 Thumbs.db
 cleanup-report.json
+
+.env*

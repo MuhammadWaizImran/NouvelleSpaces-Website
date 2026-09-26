@@ -34,11 +34,11 @@ npm run build
 vercel --prod
 ```
 
-`dist/` is the public static website, generated from `cms/seed.json` and the maintained templates. The intended production address is `https://nouvellespaces.vercel.app`.
+`dist/` contains the public assets and admin interface generated from `cms/seed.json` and the maintained templates. The production address is `https://nouvellespaces.vercel.app`.
 
-The static Vercel deployment contains the public portfolio. The Node admin requires a persistent server volume; it is not deployed as a writable CMS on Vercel. To publish newer local CMS content to the static site, update `cms/seed.json` from the `published` object in your private state file, build, and redeploy. Never commit the private state or credential files.
+On Vercel, authenticated serverless routes render the current published content and store drafts, backups and uploads in a private Vercel Blob store. Production requires `BLOB_READ_WRITE_TOKEN`, `ADMIN_USERNAME`, `ADMIN_PASSWORD_SALT`, `ADMIN_PASSWORD_HASH` and `ADMIN_SESSION_SECRET`. Uploaded media stays private in Blob and is delivered through the site's controlled media endpoint.
 
-For hosting the complete Node service, use one Node process with `CMS_DATA_DIR` on persistent storage and `PUBLIC_ORIGIN` set to the exact HTTPS site origin. Bind `HOST=0.0.0.0` behind the host's HTTPS proxy. Do not share the file store between multiple instances.
+The standalone Node service remains available for local work or persistent-server hosting. Use one Node process with `CMS_DATA_DIR` on persistent storage and `PUBLIC_ORIGIN` set to the exact HTTPS site origin. Bind `HOST=0.0.0.0` behind the host's HTTPS proxy. Do not share its file store between multiple instances.
 
 ## Repository structure
 
@@ -50,7 +50,8 @@ For hosting the complete Node service, use one Node process with `CMS_DATA_DIR` 
 | `scripts/` | Production export, account provisioning and verification |
 | `docs/` | Source portfolio PDF |
 | `index.html`, `projects.html` | Static page sources |
-| `server.js`, `admin.html` | Local/persistent-host CMS service and interface |
+| `server.js`, `admin.html` | Local CMS service and shared admin interface |
+| `api/` | Vercel authentication, CMS, dynamic pages and private media delivery |
 
 The field catalog uses offsets into the normalized templates. Change templates carefully and migrate catalog IDs when rebuilding them. Use `css/home-polish.css` for additive homepage styling.
 

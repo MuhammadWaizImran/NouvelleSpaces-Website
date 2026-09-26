@@ -6,9 +6,10 @@ if(path.dirname(out)!==root||path.basename(out)!=='dist')throw Error('Invalid ex
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out);
 const seed=JSON.parse(fs.readFileSync(path.join(root,'cms/seed.json'),'utf8'));
 for(const folder of ['assets','css','js'])fs.cpSync(path.join(root,folder),path.join(out,folder),{recursive:true});
-for(const [page,file]of [['home','index.html'],['gallery','projects.html']])fs.writeFileSync(path.join(out,file),render(page,seed));
+const admin=fs.readFileSync(path.join(root,'admin.html'),'utf8').replace('<script src="/js/admin.js" defer></script>','<script src="/js/blob-client.js" defer></script><script src="/js/admin.js" defer></script>');
+fs.writeFileSync(path.join(out,'admin.html'),admin);
 fs.writeFileSync(path.join(out,'css/site-theme.css'),theme(seed.settings));
 fs.writeFileSync(path.join(out,'assets/projects.json'),JSON.stringify(seed.projects.filter(p=>p.published!==false)));
 fs.writeFileSync(path.join(out,'robots.txt'),'User-agent: *\nAllow: /\nDisallow: /admin\nSitemap: https://nouvellespaces.vercel.app/sitemap.xml\n');
 fs.writeFileSync(path.join(out,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://nouvellespaces.vercel.app/</loc></url><url><loc>https://nouvellespaces.vercel.app/projects</loc></url></urlset>');
-console.log(`Exported ${seed.projects.length} projects to dist. Private admin data is not included.`);
+console.log(`Exported public assets and the admin shell for ${seed.projects.length} seeded projects. Live pages render from private CMS storage.`);
