@@ -1,0 +1,14 @@
+{
+  "name": "nouvelle-spaces",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nouvelle Spaces architecture, interiors and visualization portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check js/app.js && node --check js/home-polish.js && node --check js/projects.js && node --check server.js && node --check js/admin.js && node --check cms/content.js && node --check cms/auth.js && node --check js/gallery-loader.js && node --check scripts/export-site.js",
+    "test": "node scripts/test-cms.js",
+    "build": "node scripts/export-site.js"
+  }
+}

@@ -1,0 +1,3858 @@
+[
+  {
+    "id": "home-0001",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Skip to content",
+    "value": "Skip to content",
+    "ranges": [
+      [
+        8661,
+        8676
+      ]
+    ]
+  },
+  {
+    "id": "home-0002",
+    "page": "home",
+    "section": "General",
+    "kind": "image",
+    "label": "img contain",
+    "value": {
+      "src": "./assets/6a068da7ad91b057365bf974_landscape.svg",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        22550,
+        22653
+      ]
+    ]
+  },
+  {
+    "id": "home-0003",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Nouvelle Spaces",
+    "value": "Nouvelle Spaces",
+    "ranges": [
+      [
+        26564,
+        26579
+      ]
+    ]
+  },
+  {
+    "id": "home-0004",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Architecture",
+    "value": "Architecture",
+    "ranges": [
+      [
+        26587,
+        26599
+      ]
+    ]
+  },
+  {
+    "id": "home-0005",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "3D Visualization",
+    "value": "3D Visualization",
+    "ranges": [
+      [
+        26606,
+        26622
+      ]
+    ]
+  },
+  {
+    "id": "home-0006",
+    "page": "home",
+    "section": "General",
+    "kind": "image",
+    "label": "img",
+    "value": {
+      "src": "./assets/6a2311bd477167bbc41c9c03_e22485744735d6f17214f25b6157e9b5_preloader_bg.svg",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        26825,
+        26956
+      ]
+    ]
+  },
+  {
+    "id": "home-0007",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Cookies",
+    "value": "Cookies",
+    "ranges": [
+      [
+        29437,
+        29444
+      ],
+      [
+        29514,
+        29521
+      ]
+    ]
+  },
+  {
+    "id": "home-0008",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "This website uses cookies to ensure you get the best experience on website.",
+    "value": "This website uses cookies to ensure you get the best experience on website.",
+    "ranges": [
+      [
+        29603,
+        29678
+      ]
+    ]
+  },
+  {
+    "id": "home-0009",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Accept",
+    "value": "Accept",
+    "ranges": [
+      [
+        29921,
+        29927
+      ],
+      [
+        30002,
+        30008
+      ]
+    ]
+  },
+  {
+    "id": "home-0010",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Decline",
+    "value": "Decline",
+    "ranges": [
+      [
+        30233,
+        30240
+      ],
+      [
+        30315,
+        30322
+      ]
+    ]
+  },
+  {
+    "id": "home-0011",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Menu",
+    "value": "Menu",
+    "ranges": [
+      [
+        56447,
+        56451
+      ],
+      [
+        56530,
+        56534
+      ],
+      [
+        183994,
+        183998
+      ]
+    ]
+  },
+  {
+    "id": "home-0012",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Close",
+    "value": "Close",
+    "ranges": [
+      [
+        56764,
+        56769
+      ],
+      [
+        56848,
+        56853
+      ]
+    ]
+  },
+  {
+    "id": "home-0013",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "Projects Gallery",
+    "value": "/projects",
+    "ranges": [
+      [
+        58437,
+        58446
+      ],
+      [
+        184190,
+        184199
+      ]
+    ]
+  },
+  {
+    "id": "home-0014",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Projects",
+    "value": "Projects",
+    "ranges": [
+      [
+        58570,
+        58578
+      ],
+      [
+        58657,
+        58665
+      ],
+      [
+        184311,
+        184319
+      ],
+      [
+        184394,
+        184402
+      ]
+    ]
+  },
+  {
+    "id": "home-0015",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Book a call",
+    "value": "Book a call",
+    "ranges": [
+      [
+        58923,
+        58934
+      ],
+      [
+        59013,
+        59024
+      ],
+      [
+        150733,
+        150744
+      ],
+      [
+        150771,
+        150782
+      ],
+      [
+        184986,
+        184997
+      ],
+      [
+        185072,
+        185083
+      ]
+    ]
+  },
+  {
+    "id": "home-0016",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Contact",
+    "value": "Contact",
+    "ranges": [
+      [
+        59252,
+        59259
+      ],
+      [
+        59338,
+        59345
+      ],
+      [
+        185308,
+        185315
+      ],
+      [
+        185390,
+        185397
+      ]
+    ]
+  },
+  {
+    "id": "home-0017",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Scroll",
+    "value": "Scroll",
+    "ranges": [
+      [
+        60246,
+        60252
+      ]
+    ]
+  },
+  {
+    "id": "home-0018",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "Nouvelle",
+    "value": "Nouvelle",
+    "ranges": [
+      [
+        60605,
+        60613
+      ]
+    ]
+  },
+  {
+    "id": "home-0019",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "Spaces",
+    "value": "Spaces",
+    "ranges": [
+      [
+        60619,
+        60625
+      ]
+    ]
+  },
+  {
+    "id": "home-0020",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "A place",
+    "value": "A place",
+    "ranges": [
+      [
+        60798,
+        60805
+      ]
+    ]
+  },
+  {
+    "id": "home-0021",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "outdoors",
+    "value": "outdoors",
+    "ranges": [
+      [
+        61106,
+        61114
+      ],
+      [
+        61193,
+        61201
+      ]
+    ]
+  },
+  {
+    "id": "home-0022",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "indoors",
+    "value": "indoors",
+    "ranges": [
+      [
+        61476,
+        61483
+      ],
+      [
+        61562,
+        61569
+      ]
+    ]
+  },
+  {
+    "id": "home-0023",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "to return to",
+    "value": "to return to",
+    "ranges": [
+      [
+        61684,
+        61696
+      ]
+    ]
+  },
+  {
+    "id": "home-0024",
+    "page": "home",
+    "section": "hero",
+    "kind": "text",
+    "label": "Contact Studio",
+    "value": "Contact Studio",
+    "ranges": [
+      [
+        66897,
+        66911
+      ],
+      [
+        66990,
+        67004
+      ]
+    ]
+  },
+  {
+    "id": "home-0025",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Nouvelle",
+    "value": "Nouvelle",
+    "ranges": [
+      [
+        68270,
+        68278
+      ]
+    ]
+  },
+  {
+    "id": "home-0026",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Spaces",
+    "value": "Spaces",
+    "ranges": [
+      [
+        69174,
+        69180
+      ]
+    ]
+  },
+  {
+    "id": "home-0027",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Spaces designed for living — crafted to endure",
+    "value": "Spaces designed for living — crafted to endure",
+    "ranges": [
+      [
+        69410,
+        69456
+      ]
+    ]
+  },
+  {
+    "id": "home-0028",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Bespoke Architecture",
+    "value": "Bespoke Architecture",
+    "ranges": [
+      [
+        72608,
+        72628
+      ],
+      [
+        72703,
+        72723
+      ]
+    ]
+  },
+  {
+    "id": "home-0029",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Architecture",
+    "value": {
+      "src": "./assets/6a150affaf1d8cc969d57dd0_img_cam_02.webp",
+      "alt": "Nouvelle Spaces Architecture"
+    },
+    "ranges": [
+      [
+        72907,
+        73363
+      ]
+    ]
+  },
+  {
+    "id": "home-0030",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Specializing in bespoke luxury interior and exterior architecture, Nouvelle Spaces offers a rare bal",
+    "value": "Specializing in bespoke luxury interior and exterior architecture, Nouvelle Spaces offers a rare balance of timeless elegance, functional spatial planning, and impeccable craftsmanship.",
+    "ranges": [
+      [
+        73581,
+        73766
+      ]
+    ]
+  },
+  {
+    "id": "home-0031",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Bespoke Spatial Planning",
+    "value": "Bespoke Spatial Planning",
+    "ranges": [
+      [
+        73928,
+        73952
+      ]
+    ]
+  },
+  {
+    "id": "home-0032",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Architectural Form",
+    "value": "Architectural Form",
+    "ranges": [
+      [
+        73959,
+        73977
+      ]
+    ]
+  },
+  {
+    "id": "home-0033",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Built to stay",
+    "value": "Built to stay",
+    "ranges": [
+      [
+        74327,
+        74340
+      ],
+      [
+        74415,
+        74428
+      ]
+    ]
+  },
+  {
+    "id": "home-0034",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "img",
+    "value": {
+      "src": "./assets/6a150bbc2a39862be04f2cd5_era-residence-terrace.webp",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        74612,
+        75106
+      ]
+    ]
+  },
+  {
+    "id": "home-0035",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Balancing contemporary structural discipline with natural materials, curated textures, and immersive",
+    "value": "Balancing contemporary structural discipline with natural materials, curated textures, and immersive lighting, every space is sculpted to endure and inspire.",
+    "ranges": [
+      [
+        75324,
+        75481
+      ]
+    ]
+  },
+  {
+    "id": "home-0036",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Enduring Materiality",
+    "value": "Enduring Materiality",
+    "ranges": [
+      [
+        75643,
+        75663
+      ]
+    ]
+  },
+  {
+    "id": "home-0037",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Structural Clarity",
+    "value": "Structural Clarity",
+    "ranges": [
+      [
+        75670,
+        75688
+      ]
+    ]
+  },
+  {
+    "id": "home-0038",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Boutique concept",
+    "value": "Boutique concept",
+    "ranges": [
+      [
+        76038,
+        76054
+      ],
+      [
+        76129,
+        76145
+      ]
+    ]
+  },
+  {
+    "id": "home-0039",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "img",
+    "value": {
+      "src": "./assets/6a150cc2f810e37eec2ea963_era-residence-garden.webp",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        76329,
+        76667
+      ]
+    ]
+  },
+  {
+    "id": "home-0040",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "From initial concept mood boards and 2D CAD drafting to hyper-realistic 3D visualizations and materi",
+    "value": "From initial concept mood boards and 2D CAD drafting to hyper-realistic 3D visualizations and material execution, we provide an end-to-end design journey.",
+    "ranges": [
+      [
+        76885,
+        77039
+      ]
+    ]
+  },
+  {
+    "id": "home-0041",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Turnkey Design",
+    "value": "Turnkey Design",
+    "ranges": [
+      [
+        77201,
+        77215
+      ]
+    ]
+  },
+  {
+    "id": "home-0042",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "3D Visualization",
+    "value": "3D Visualization",
+    "ranges": [
+      [
+        77222,
+        77238
+      ],
+      [
+        94660,
+        94676
+      ]
+    ]
+  },
+  {
+    "id": "home-0043",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Instead of conventional hallways, open breezeways unite the villa — hand-crafted limestone walls and",
+    "value": "Instead of conventional hallways, open breezeways unite the villa — hand-crafted limestone walls and natural timber pergolas evoke the pure essence of timeless bespoke living.",
+    "ranges": [
+      [
+        78868,
+        79043
+      ]
+    ]
+  },
+  {
+    "id": "home-0044",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Architecture",
+    "value": "Architecture",
+    "ranges": [
+      [
+        79259,
+        79271
+      ],
+      [
+        129982,
+        129994
+      ]
+    ]
+  },
+  {
+    "id": "home-0045",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Exterior Elevation",
+    "value": "Exterior Elevation",
+    "ranges": [
+      [
+        79274,
+        79292
+      ]
+    ]
+  },
+  {
+    "id": "home-0046",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Nouvelle Spaces",
+    "value": "Nouvelle Spaces",
+    "ranges": [
+      [
+        79406,
+        79421
+      ]
+    ]
+  },
+  {
+    "id": "home-0047",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Villa Exterior Architecture & Elevation",
+    "value": {
+      "src": "./assets/portfolio/stone_villa_01_elevation.webp",
+      "alt": "Villa Exterior Architecture & Elevation"
+    },
+    "ranges": [
+      [
+        81039,
+        81376
+      ]
+    ]
+  },
+  {
+    "id": "home-0048",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Villa Outdoor Living & Pergola Daybed",
+    "value": {
+      "src": "./assets/portfolio/stone_villa_02_daybed.webp",
+      "alt": "Villa Outdoor Living & Pergola Daybed"
+    },
+    "ranges": [
+      [
+        81376,
+        81730
+      ]
+    ]
+  },
+  {
+    "id": "home-0049",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Villa Pool Deck & Alfresco Dining",
+    "value": {
+      "src": "./assets/portfolio/stone_villa_03_pooldeck.webp",
+      "alt": "Villa Pool Deck & Alfresco Dining"
+    },
+    "ranges": [
+      [
+        81730,
+        82082
+      ]
+    ]
+  },
+  {
+    "id": "home-0050",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "The concept",
+    "value": "The concept",
+    "ranges": [
+      [
+        82921,
+        82932
+      ]
+    ]
+  },
+  {
+    "id": "home-0051",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Nouvelle Spaces is a premier architecture",
+    "value": "Nouvelle Spaces is a premier architecture",
+    "ranges": [
+      [
+        83092,
+        83133
+      ]
+    ]
+  },
+  {
+    "id": "home-0052",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "interior design studio — creating bespoke residential villas, contemporary penthouses, and commercia",
+    "value": "interior design studio — creating bespoke residential villas, contemporary penthouses, and commercial environments shaped by spatial purity and timeless elegance.",
+    "ranges": [
+      [
+        83140,
+        83302
+      ]
+    ]
+  },
+  {
+    "id": "home-0053",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "From sculptural exterior facades to masterfully crafted interior detailing and photorealistic 3D vis",
+    "value": "From sculptural exterior facades to masterfully crafted interior detailing and photorealistic 3D visualization, Nouvelle Spaces orchestrates light, natural materials, and seamless spatial flow to deliver environments that are intuitive, enduring, and inspiring.",
+    "ranges": [
+      [
+        83461,
+        83722
+      ]
+    ]
+  },
+  {
+    "id": "home-0054",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Interior",
+    "value": "Interior",
+    "ranges": [
+      [
+        85331,
+        85339
+      ],
+      [
+        130559,
+        130567
+      ],
+      [
+        136026,
+        136034
+      ]
+    ]
+  },
+  {
+    "id": "home-0055",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Exterior Architecture",
+    "value": "Exterior Architecture",
+    "ranges": [
+      [
+        85346,
+        85367
+      ]
+    ]
+  },
+  {
+    "id": "home-0056",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Bespoke",
+    "value": "Bespoke",
+    "ranges": [
+      [
+        85489,
+        85496
+      ]
+    ]
+  },
+  {
+    "id": "home-0057",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Spatial",
+    "value": "Spatial",
+    "ranges": [
+      [
+        85558,
+        85565
+      ]
+    ]
+  },
+  {
+    "id": "home-0058",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Design",
+    "value": "Design",
+    "ranges": [
+      [
+        85610,
+        85616
+      ]
+    ]
+  },
+  {
+    "id": "home-0059",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Asfar Residential Community Elevations",
+    "value": {
+      "src": "./assets/portfolio/asfar_elevations.webp",
+      "alt": "Asfar Residential Community Elevations"
+    },
+    "ranges": [
+      [
+        85739,
+        86153
+      ]
+    ]
+  },
+  {
+    "id": "home-0060",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Residential",
+    "value": "Residential",
+    "ranges": [
+      [
+        86263,
+        86274
+      ]
+    ]
+  },
+  {
+    "id": "home-0061",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Commercial Practice",
+    "value": "Commercial Practice",
+    "ranges": [
+      [
+        86281,
+        86300
+      ]
+    ]
+  },
+  {
+    "id": "home-0062",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "From private luxury villas and penthouses to commercial flagships and masterplanned developments, No",
+    "value": "From private luxury villas and penthouses to commercial flagships and masterplanned developments, Nouvelle Spaces merges creative vision with technical precision — crafting an enduring dialogue between form, light, and natural materiality.",
+    "ranges": [
+      [
+        86366,
+        86605
+      ]
+    ]
+  },
+  {
+    "id": "home-0063",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Contact Studio",
+    "value": "Contact Studio",
+    "ranges": [
+      [
+        87030,
+        87044
+      ],
+      [
+        87123,
+        87137
+      ],
+      [
+        123415,
+        123429
+      ],
+      [
+        123508,
+        123522
+      ],
+      [
+        140890,
+        140904
+      ],
+      [
+        140983,
+        140997
+      ]
+    ]
+  },
+  {
+    "id": "home-0064",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Spaces crafted",
+    "value": "Spaces crafted",
+    "ranges": [
+      [
+        88590,
+        88604
+      ]
+    ]
+  },
+  {
+    "id": "home-0065",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "for refined",
+    "value": "for refined",
+    "ranges": [
+      [
+        88671,
+        88682
+      ]
+    ]
+  },
+  {
+    "id": "home-0066",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "living",
+    "value": "living",
+    "ranges": [
+      [
+        88749,
+        88755
+      ]
+    ]
+  },
+  {
+    "id": "home-0067",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "img loc-path",
+    "value": {
+      "src": "./assets/6a51975c584436cfdd9e2406_loc_path.svg",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        88934,
+        89037
+      ]
+    ]
+  },
+  {
+    "id": "home-0068",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "img h-auto",
+    "value": {
+      "src": "./assets/6a51975cc959ee1e44045b0e_loc_path_labels.svg",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        89037,
+        89170
+      ]
+    ]
+  },
+  {
+    "id": "home-0069",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "clouds is-33",
+    "value": {
+      "src": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a0fa3c60405a99c8530535e_img_clouds_33.avif",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        90204,
+        90641
+      ],
+      [
+        90678,
+        91115
+      ],
+      [
+        91208,
+        91645
+      ],
+      [
+        91682,
+        92119
+      ]
+    ]
+  },
+  {
+    "id": "home-0070",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "clouds is-47",
+    "value": {
+      "src": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a0fa3c6685d7bb04792137a_img_clouds_47.avif",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        92349,
+        92509
+      ],
+      [
+        92546,
+        92706
+      ],
+      [
+        92799,
+        92959
+      ],
+      [
+        92996,
+        93156
+      ]
+    ]
+  },
+  {
+    "id": "home-0071",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "clouds is-02",
+    "value": {
+      "src": "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a0fa3c6c9c3c584d9d78d85_img_clouds_02.avif",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        93386,
+        93546
+      ],
+      [
+        93583,
+        93743
+      ],
+      [
+        93836,
+        93996
+      ],
+      [
+        94033,
+        94193
+      ]
+    ]
+  },
+  {
+    "id": "home-0072",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Global Studio",
+    "value": "Global Studio",
+    "ranges": [
+      [
+        94429,
+        94442
+      ]
+    ]
+  },
+  {
+    "id": "home-0073",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Regional Practice",
+    "value": "Regional Practice",
+    "ranges": [
+      [
+        94449,
+        94466
+      ]
+    ]
+  },
+  {
+    "id": "home-0074",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Karachi • Middle East • International",
+    "value": "Karachi • Middle East • International",
+    "ranges": [
+      [
+        94533,
+        94570
+      ]
+    ]
+  },
+  {
+    "id": "home-0075",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Worldwide Design",
+    "value": "Worldwide Design",
+    "ranges": [
+      [
+        94637,
+        94653
+      ]
+    ]
+  },
+  {
+    "id": "home-0076",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Drag to see more",
+    "value": "Drag to see more",
+    "ranges": [
+      [
+        95256,
+        95272
+      ]
+    ]
+  },
+  {
+    "id": "home-0077",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Real-Life Location - View 1",
+    "value": {
+      "src": "assets/portfolio/architecture_villa_01.webp",
+      "alt": "Real-Life Location - View 1"
+    },
+    "ranges": [
+      [
+        96442,
+        96992
+      ]
+    ]
+  },
+  {
+    "id": "home-0078",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Real-Life Location - View 2",
+    "value": {
+      "src": "assets/portfolio/architecture_villa_02.webp",
+      "alt": "Real-Life Location - View 2"
+    },
+    "ranges": [
+      [
+        96995,
+        97567
+      ]
+    ]
+  },
+  {
+    "id": "home-0079",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Real-Life Location - View 3",
+    "value": {
+      "src": "assets/portfolio/architecture_villa_03.webp",
+      "alt": "Real-Life Location - View 3"
+    },
+    "ranges": [
+      [
+        97570,
+        98142
+      ]
+    ]
+  },
+  {
+    "id": "home-0080",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Real-Life Location - View 4",
+    "value": {
+      "src": "assets/portfolio/architecture_villa_04.webp",
+      "alt": "Real-Life Location - View 4"
+    },
+    "ranges": [
+      [
+        98145,
+        98717
+      ]
+    ]
+  },
+  {
+    "id": "home-0081",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "A place to live — to return year after year",
+    "value": "A place to live — to return year after year",
+    "ranges": [
+      [
+        100236,
+        100279
+      ],
+      [
+        111472,
+        111515
+      ],
+      [
+        133010,
+        133053
+      ]
+    ]
+  },
+  {
+    "id": "home-0082",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Offering comprehensive interior design, exterior architecture, and hyper-realistic 3D visualizations",
+    "value": "Offering comprehensive interior design, exterior architecture, and hyper-realistic 3D visualizations for private residences, luxury villas, and commercial flagships.",
+    "ranges": [
+      [
+        100472,
+        100637
+      ],
+      [
+        111684,
+        111849
+      ]
+    ]
+  },
+  {
+    "id": "home-0083",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 1",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_01.webp",
+      "alt": "Pavilion Architecture 1"
+    },
+    "ranges": [
+      [
+        102873,
+        103412
+      ]
+    ]
+  },
+  {
+    "id": "home-0084",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 2",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_02.webp",
+      "alt": "Pavilion Architecture 2"
+    },
+    "ranges": [
+      [
+        103421,
+        104007
+      ]
+    ]
+  },
+  {
+    "id": "home-0085",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 3",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_03.webp",
+      "alt": "Pavilion Architecture 3"
+    },
+    "ranges": [
+      [
+        104016,
+        104602
+      ]
+    ]
+  },
+  {
+    "id": "home-0086",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 4",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_04.webp",
+      "alt": "Pavilion Architecture 4"
+    },
+    "ranges": [
+      [
+        104611,
+        105197
+      ]
+    ]
+  },
+  {
+    "id": "home-0087",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 5",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_05.webp",
+      "alt": "Pavilion Architecture 5"
+    },
+    "ranges": [
+      [
+        105206,
+        105792
+      ]
+    ]
+  },
+  {
+    "id": "home-0088",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Pavilion Architecture 6",
+    "value": {
+      "src": "assets/portfolio/loc_half1_slide_06.webp",
+      "alt": "Pavilion Architecture 6"
+    },
+    "ranges": [
+      [
+        105801,
+        106387
+      ]
+    ]
+  },
+  {
+    "id": "home-0089",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Landscape Architecture 1",
+    "value": {
+      "src": "assets/portfolio/loc_half2_slide_01.webp",
+      "alt": "Landscape Architecture 1"
+    },
+    "ranges": [
+      [
+        107808,
+        108348
+      ]
+    ]
+  },
+  {
+    "id": "home-0090",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Landscape Architecture 2",
+    "value": {
+      "src": "assets/portfolio/loc_half2_slide_02.webp",
+      "alt": "Landscape Architecture 2"
+    },
+    "ranges": [
+      [
+        108357,
+        108889
+      ]
+    ]
+  },
+  {
+    "id": "home-0091",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Landscape Architecture 3",
+    "value": {
+      "src": "assets/portfolio/loc_half2_slide_03.webp",
+      "alt": "Landscape Architecture 3"
+    },
+    "ranges": [
+      [
+        108898,
+        109430
+      ]
+    ]
+  },
+  {
+    "id": "home-0092",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Landscape Architecture 4",
+    "value": {
+      "src": "assets/portfolio/loc_half2_slide_04.webp",
+      "alt": "Landscape Architecture 4"
+    },
+    "ranges": [
+      [
+        109439,
+        109971
+      ]
+    ]
+  },
+  {
+    "id": "home-0093",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Biophilic Resort Architecture",
+    "value": "Biophilic Resort Architecture",
+    "ranges": [
+      [
+        110558,
+        110587
+      ]
+    ]
+  },
+  {
+    "id": "home-0094",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Desert Resort Villas",
+    "value": "Desert Resort Villas",
+    "ranges": [
+      [
+        110733,
+        110753
+      ]
+    ]
+  },
+  {
+    "id": "home-0095",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Infinity Watercourses",
+    "value": "Infinity Watercourses",
+    "ranges": [
+      [
+        110756,
+        110777
+      ]
+    ]
+  },
+  {
+    "id": "home-0096",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Natural timber pergolas, bespoke swimming pools, and architectural water lagoon systems.",
+    "value": "Natural timber pergolas, bespoke swimming pools, and architectural water lagoon systems.",
+    "ranges": [
+      [
+        110884,
+        110972
+      ]
+    ]
+  },
+  {
+    "id": "home-0097",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Seamless indoor-outdoor harmony and bespoke spatial design — creating spaces that feel intuitive, el",
+    "value": "Seamless indoor-outdoor harmony and bespoke spatial design — creating spaces that feel intuitive, elevated, and effortlessly timeless",
+    "ranges": [
+      [
+        114302,
+        114435
+      ],
+      [
+        115563,
+        115696
+      ],
+      [
+        116817,
+        116950
+      ]
+    ]
+  },
+  {
+    "id": "home-0098",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Courtyard Architecture",
+    "value": {
+      "src": "assets/portfolio/syed_ain_villa_01_courtyard.webp",
+      "alt": "Nouvelle Spaces Courtyard Architecture"
+    },
+    "ranges": [
+      [
+        114625,
+        115033
+      ]
+    ]
+  },
+  {
+    "id": "home-0099",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Shaded Pergola Garden Path",
+    "value": {
+      "src": "assets/portfolio/syed_ain_villa_02_pergola.webp",
+      "alt": "Nouvelle Spaces Shaded Pergola Garden Path"
+    },
+    "ranges": [
+      [
+        115886,
+        116287
+      ]
+    ]
+  },
+  {
+    "id": "home-0100",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Sunlit Terrace & Walkway",
+    "value": {
+      "src": "assets/portfolio/syed_ain_villa_03_terrace.webp",
+      "alt": "Nouvelle Spaces Sunlit Terrace & Walkway"
+    },
+    "ranges": [
+      [
+        117140,
+        117539
+      ]
+    ]
+  },
+  {
+    "id": "home-0101",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Book a call now",
+    "value": "Book a call now",
+    "ranges": [
+      [
+        119085,
+        119100
+      ],
+      [
+        119179,
+        119194
+      ],
+      [
+        131063,
+        131078
+      ],
+      [
+        131157,
+        131172
+      ]
+    ]
+  },
+  {
+    "id": "home-0102",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "The",
+    "value": "The",
+    "ranges": [
+      [
+        120267,
+        120270
+      ]
+    ]
+  },
+  {
+    "id": "home-0103",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "space",
+    "value": "space",
+    "ranges": [
+      [
+        120275,
+        120280
+      ]
+    ]
+  },
+  {
+    "id": "home-0104",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "to",
+    "value": "to",
+    "ranges": [
+      [
+        120285,
+        120287
+      ]
+    ]
+  },
+  {
+    "id": "home-0105",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Live in",
+    "value": "Live in",
+    "ranges": [
+      [
+        120371,
+        120378
+      ]
+    ]
+  },
+  {
+    "id": "home-0106",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Outdoor seating with modern chair, ottoman, table, and orange drink in a garden with pink flowers.",
+    "value": {
+      "src": "assets/portfolio/asfar_dining_room.webp",
+      "alt": "Outdoor seating with modern chair, ottoman, table, and orange drink in a garden with pink flowers."
+    },
+    "ranges": [
+      [
+        120682,
+        121056
+      ]
+    ]
+  },
+  {
+    "id": "home-0107",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Complete Design Services:",
+    "value": "Complete Design Services:",
+    "ranges": [
+      [
+        121643,
+        121668
+      ]
+    ]
+  },
+  {
+    "id": "home-0108",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "• Interior Space Planning",
+    "value": "• Interior Space Planning",
+    "ranges": [
+      [
+        121674,
+        121699
+      ]
+    ]
+  },
+  {
+    "id": "home-0109",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Styling",
+    "value": "Styling",
+    "ranges": [
+      [
+        121706,
+        121713
+      ]
+    ]
+  },
+  {
+    "id": "home-0110",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "• Exterior Architectural Facades",
+    "value": "• Exterior Architectural Facades",
+    "ranges": [
+      [
+        121719,
+        121751
+      ]
+    ]
+  },
+  {
+    "id": "home-0111",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "• Photorealistic 3D Visualizations",
+    "value": "• Photorealistic 3D Visualizations",
+    "ranges": [
+      [
+        121757,
+        121791
+      ]
+    ]
+  },
+  {
+    "id": "home-0112",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Sunlit terrace with cushioned seating, wooden tables, plants, flowering vine canopy, and ocean in th",
+    "value": {
+      "src": "assets/portfolio/asfar_living_area.webp",
+      "alt": "Sunlit terrace with cushioned seating, wooden tables, plants, flowering vine canopy, and ocean in the distance."
+    },
+    "ranges": [
+      [
+        122014,
+        122448
+      ]
+    ]
+  },
+  {
+    "id": "home-0113",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Every detail is curated to create environments that feel refined, intuitive, and effortlessly tailor",
+    "value": "Every detail is curated to create environments that feel refined, intuitive, and effortlessly tailored to modern living",
+    "ranges": [
+      [
+        122592,
+        122711
+      ]
+    ]
+  },
+  {
+    "id": "home-0114",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Custom architectural cove lighting. Hand-selected Italian marble and natural travertine. Bespoke mil",
+    "value": "Custom architectural cove lighting. Hand-selected Italian marble and natural travertine. Bespoke millwork and fluted wall paneling. Premium fixtures and tailored furniture curation.",
+    "ranges": [
+      [
+        122814,
+        122995
+      ]
+    ]
+  },
+  {
+    "id": "home-0115",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Interior Living Space - View 1",
+    "value": {
+      "src": "assets/portfolio/living_space_01.webp",
+      "alt": "Nouvelle Spaces Interior Living Space - View 1"
+    },
+    "ranges": [
+      [
+        124592,
+        124923
+      ]
+    ]
+  },
+  {
+    "id": "home-0116",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Interior Living Space - View 2",
+    "value": {
+      "src": "assets/portfolio/living_space_02.webp",
+      "alt": "Nouvelle Spaces Interior Living Space - View 2"
+    },
+    "ranges": [
+      [
+        125160,
+        125491
+      ]
+    ]
+  },
+  {
+    "id": "home-0117",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Interior Living Space - View 3",
+    "value": {
+      "src": "assets/portfolio/living_space_03.webp",
+      "alt": "Nouvelle Spaces Interior Living Space - View 3"
+    },
+    "ranges": [
+      [
+        125728,
+        126059
+      ]
+    ]
+  },
+  {
+    "id": "home-0118",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces Interior Living Space - View 4",
+    "value": {
+      "src": "assets/portfolio/living_space_04.webp",
+      "alt": "Nouvelle Spaces Interior Living Space - View 4"
+    },
+    "ranges": [
+      [
+        126296,
+        126627
+      ]
+    ]
+  },
+  {
+    "id": "home-0119",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "The architecture of Nouvelle Spaces balances clean contemporary lines with spatial warmth, tactile t",
+    "value": "The architecture of Nouvelle Spaces balances clean contemporary lines with spatial warmth, tactile textures, and refined living",
+    "ranges": [
+      [
+        130259,
+        130386
+      ]
+    ]
+  },
+  {
+    "id": "home-0120",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "By Nouvelle Spaces",
+    "value": "By Nouvelle Spaces",
+    "ranges": [
+      [
+        130501,
+        130519
+      ]
+    ]
+  },
+  {
+    "id": "home-0121",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Exterior Architecture Studio",
+    "value": "Exterior Architecture Studio",
+    "ranges": [
+      [
+        130574,
+        130602
+      ]
+    ]
+  },
+  {
+    "id": "home-0122",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Modern architectural terrace with lush greenery and curated outdoor living lounge.",
+    "value": {
+      "src": "./assets/6a0f8994091fd12c24e79c8a_img_cam_02.webp",
+      "alt": "Modern architectural terrace with lush greenery and curated outdoor living lounge."
+    },
+    "ranges": [
+      [
+        131937,
+        132428
+      ]
+    ]
+  },
+  {
+    "id": "home-0123",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Design Studio",
+    "value": "Design Studio",
+    "ranges": [
+      [
+        133543,
+        133556
+      ]
+    ]
+  },
+  {
+    "id": "home-0124",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Nouvelle Spaces Architectural Studio",
+    "value": "Nouvelle Spaces Architectural Studio",
+    "ranges": [
+      [
+        134477,
+        134513
+      ]
+    ]
+  },
+  {
+    "id": "home-0125",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Core Disciplines",
+    "value": "Core Disciplines",
+    "ranges": [
+      [
+        134897,
+        134913
+      ]
+    ]
+  },
+  {
+    "id": "home-0126",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "logo b",
+    "value": {
+      "src": "./assets/6a1577b00ac578734e61941e_Unreal%20logo.svg",
+      "alt": ""
+    },
+    "ranges": [
+      [
+        135847,
+        135949
+      ]
+    ]
+  },
+  {
+    "id": "home-0127",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Exterior Design Practice",
+    "value": "Exterior Design Practice",
+    "ranges": [
+      [
+        136041,
+        136065
+      ]
+    ]
+  },
+  {
+    "id": "home-0128",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Design Process",
+    "value": "Design Process",
+    "ranges": [
+      [
+        136449,
+        136463
+      ]
+    ]
+  },
+  {
+    "id": "home-0129",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "From initial conceptual sketches and 2D CAD layouts to hyper-realistic 3D visualizations and materia",
+    "value": "From initial conceptual sketches and 2D CAD layouts to hyper-realistic 3D visualizations and material execution sheets, every phase is completed with uncompromising rigor.",
+    "ranges": [
+      [
+        137384,
+        137555
+      ]
+    ]
+  },
+  {
+    "id": "home-0130",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Project Archive",
+    "value": "Project Archive",
+    "ranges": [
+      [
+        137939,
+        137954
+      ]
+    ]
+  },
+  {
+    "id": "home-0131",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Showcasing luxury private villas, bespoke interior penthouses, commercial cafes, and cultural exhibi",
+    "value": "Showcasing luxury private villas, bespoke interior penthouses, commercial cafes, and cultural exhibition pavilions across Pakistan, the Middle East, and internationally.",
+    "ranges": [
+      [
+        138875,
+        139044
+      ]
+    ]
+  },
+  {
+    "id": "home-0132",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "A short conversation is enough to understand your project vision — whether designing a private luxur",
+    "value": "A short conversation is enough to understand your project vision — whether designing a private luxury villa, remodeling an interior, or crafting a flagship commercial venue.",
+    "ranges": [
+      [
+        140011,
+        140184
+      ]
+    ]
+  },
+  {
+    "id": "home-0133",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Bespoke Living",
+    "value": "Bespoke Living",
+    "ranges": [
+      [
+        140315,
+        140329
+      ]
+    ]
+  },
+  {
+    "id": "home-0134",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Refined Spaces",
+    "value": "Refined Spaces",
+    "ranges": [
+      [
+        140335,
+        140349
+      ]
+    ]
+  },
+  {
+    "id": "home-0135",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "From Private Residences to Commercial Architecture",
+    "value": "From Private Residences to Commercial Architecture",
+    "ranges": [
+      [
+        140425,
+        140475
+      ]
+    ]
+  },
+  {
+    "id": "home-0136",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_01.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        141728,
+        142355
+      ]
+    ]
+  },
+  {
+    "id": "home-0137",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_02.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        142356,
+        142975
+      ]
+    ]
+  },
+  {
+    "id": "home-0138",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_03.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        142976,
+        143595
+      ]
+    ]
+  },
+  {
+    "id": "home-0139",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_04.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        143596,
+        144215
+      ]
+    ]
+  },
+  {
+    "id": "home-0140",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_05.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        144216,
+        144835
+      ]
+    ]
+  },
+  {
+    "id": "home-0141",
+    "page": "home",
+    "section": "section",
+    "kind": "image",
+    "label": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces",
+    "value": {
+      "src": "assets/portfolio/rooftop_terrace_06.webp",
+      "alt": "Nouvelle Spaces - Bespoke Luxury Architecture & Living Spaces"
+    },
+    "ranges": [
+      [
+        144836,
+        145455
+      ]
+    ]
+  },
+  {
+    "id": "home-0142",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "To top",
+    "value": "To top",
+    "ranges": [
+      [
+        145758,
+        145764
+      ]
+    ]
+  },
+  {
+    "id": "home-0143",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Umais Ali",
+    "value": "Umais Ali",
+    "ranges": [
+      [
+        147801,
+        147810
+      ]
+    ]
+  },
+  {
+    "id": "home-0144",
+    "page": "home",
+    "section": "section",
+    "kind": "link",
+    "label": "tel:03130371049",
+    "value": "tel:03130371049",
+    "ranges": [
+      [
+        147832,
+        147847
+      ]
+    ]
+  },
+  {
+    "id": "home-0145",
+    "page": "home",
+    "section": "section",
+    "kind": "link",
+    "label": "mailto:umais.ali80@gmail.com",
+    "value": "mailto:umais.ali80@gmail.com",
+    "ranges": [
+      [
+        148035,
+        148063
+      ]
+    ]
+  },
+  {
+    "id": "home-0146",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "umais.ali80@gmail.com",
+    "value": "umais.ali80@gmail.com",
+    "ranges": [
+      [
+        148229,
+        148250
+      ]
+    ]
+  },
+  {
+    "id": "home-0147",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Syed Ain",
+    "value": "Syed Ain",
+    "ranges": [
+      [
+        148601,
+        148609
+      ]
+    ]
+  },
+  {
+    "id": "home-0148",
+    "page": "home",
+    "section": "section",
+    "kind": "link",
+    "label": "tel:+923435291533",
+    "value": "tel:+923435291533",
+    "ranges": [
+      [
+        148631,
+        148648
+      ]
+    ]
+  },
+  {
+    "id": "home-0149",
+    "page": "home",
+    "section": "section",
+    "kind": "link",
+    "label": "mailto:Syedain9988@gmail.com",
+    "value": "mailto:Syedain9988@gmail.com",
+    "ranges": [
+      [
+        148839,
+        148867
+      ]
+    ]
+  },
+  {
+    "id": "home-0150",
+    "page": "home",
+    "section": "section",
+    "kind": "text",
+    "label": "Syedain9988@gmail.com",
+    "value": "Syedain9988@gmail.com",
+    "ranges": [
+      [
+        149033,
+        149054
+      ]
+    ]
+  },
+  {
+    "id": "home-0151",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Leave your details and we will get back to you within 24 hours.",
+    "value": "Leave your details and we will get back to you within 24 hours.",
+    "ranges": [
+      [
+        151779,
+        151842
+      ]
+    ]
+  },
+  {
+    "id": "home-0152",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Name:",
+    "value": "Name:",
+    "ranges": [
+      [
+        175364,
+        175369
+      ]
+    ]
+  },
+  {
+    "id": "home-0153",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Email:",
+    "value": "Email:",
+    "ranges": [
+      [
+        175620,
+        175626
+      ]
+    ]
+  },
+  {
+    "id": "home-0154",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Phone:",
+    "value": "Phone:",
+    "ranges": [
+      [
+        175882,
+        175888
+      ]
+    ]
+  },
+  {
+    "id": "home-0155",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Message:",
+    "value": "Message:",
+    "ranges": [
+      [
+        176144,
+        176152
+      ]
+    ]
+  },
+  {
+    "id": "home-0156",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "By submitting, you agree to our",
+    "value": "By submitting, you agree to our",
+    "ranges": [
+      [
+        177205,
+        177236
+      ]
+    ]
+  },
+  {
+    "id": "home-0157",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "./assets/6a1576532e78ed7645599d9b_politica_privacidad_era_residence.pdf",
+    "value": "./assets/6a1576532e78ed7645599d9b_politica_privacidad_era_residence.pdf",
+    "ranges": [
+      [
+        177452,
+        177523
+      ]
+    ]
+  },
+  {
+    "id": "home-0158",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Privacy policy",
+    "value": "Privacy policy",
+    "ranges": [
+      [
+        177604,
+        177618
+      ]
+    ]
+  },
+  {
+    "id": "home-0159",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Submit",
+    "value": "Submit",
+    "ranges": [
+      [
+        177912,
+        177918
+      ],
+      [
+        177992,
+        177998
+      ]
+    ]
+  },
+  {
+    "id": "home-0160",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "We’ve received your request",
+    "value": "We’ve received your request",
+    "ranges": [
+      [
+        178234,
+        178261
+      ]
+    ]
+  },
+  {
+    "id": "home-0161",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Thank you",
+    "value": "Thank you",
+    "ranges": [
+      [
+        178353,
+        178362
+      ]
+    ]
+  },
+  {
+    "id": "home-0162",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "Linkedin",
+    "value": "https://www.linkedin.com/company/nouvellespaces/",
+    "ranges": [
+      [
+        178650,
+        178698
+      ]
+    ]
+  },
+  {
+    "id": "home-0163",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "Facebook",
+    "value": "https://www.facebook.com/nouvellespaces",
+    "ranges": [
+      [
+        179637,
+        179676
+      ]
+    ]
+  },
+  {
+    "id": "home-0164",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "Instagram",
+    "value": "https://www.instagram.com/nouvellespaces",
+    "ranges": [
+      [
+        180289,
+        180329
+      ]
+    ]
+  },
+  {
+    "id": "home-0165",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Our sales manager will review your message and respond personally. We typically reply within one bus",
+    "value": "Our sales manager will review your message and respond personally. We typically reply within one business day.",
+    "ranges": [
+      [
+        183233,
+        183343
+      ]
+    ]
+  },
+  {
+    "id": "home-0166",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Oops! Something went wrong while submitting the form.",
+    "value": "Oops! Something went wrong while submitting the form.",
+    "ranges": [
+      [
+        183440,
+        183493
+      ]
+    ]
+  },
+  {
+    "id": "home-0167",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "The",
+    "value": "The",
+    "ranges": [
+      [
+        183940,
+        183943
+      ]
+    ]
+  },
+  {
+    "id": "home-0168",
+    "page": "home",
+    "section": "General",
+    "kind": "link",
+    "label": "Home",
+    "value": "/",
+    "ranges": [
+      [
+        184504,
+        184505
+      ]
+    ]
+  },
+  {
+    "id": "home-0169",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Home",
+    "value": "Home",
+    "ranges": [
+      [
+        184648,
+        184652
+      ],
+      [
+        184727,
+        184731
+      ]
+    ]
+  },
+  {
+    "id": "home-0170",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Crafted to Endure",
+    "value": "Crafted to Endure",
+    "ranges": [
+      [
+        186663,
+        186680
+      ]
+    ]
+  },
+  {
+    "id": "home-0171",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Natural stone façades were selected for their timeless appearance, durability and ease of maintenanc",
+    "value": "Natural stone façades were selected for their timeless appearance, durability and ease of maintenance, allowing the architecture to age beautifully over time",
+    "ranges": [
+      [
+        186738,
+        186895
+      ]
+    ]
+  },
+  {
+    "id": "home-0172",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Light",
+    "value": "Light",
+    "ranges": [
+      [
+        189688,
+        189693
+      ]
+    ]
+  },
+  {
+    "id": "home-0173",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Flow",
+    "value": "Flow",
+    "ranges": [
+      [
+        189700,
+        189704
+      ]
+    ]
+  },
+  {
+    "id": "home-0174",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Double-Height Staircase",
+    "value": "Double-Height Staircase",
+    "ranges": [
+      [
+        189762,
+        189785
+      ]
+    ]
+  },
+  {
+    "id": "home-0175",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Lounges, rooftop solariums and expansive openings maximize natural light while creating a seamless i",
+    "value": "Lounges, rooftop solariums and expansive openings maximize natural light while creating a seamless indoor outdoor lifestyle.",
+    "ranges": [
+      [
+        189788,
+        189912
+      ]
+    ]
+  },
+  {
+    "id": "home-0176",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Your Private Sanctuary",
+    "value": "Your Private Sanctuary",
+    "ranges": [
+      [
+        192717,
+        192739
+      ]
+    ]
+  },
+  {
+    "id": "home-0177",
+    "page": "home",
+    "section": "General",
+    "kind": "text",
+    "label": "Seamless indoor-outdoor harmony and bespoke spatial design — creating spaces that feel intuitive, el",
+    "value": "Seamless indoor-outdoor harmony and bespoke spatial design — creating spaces that feel intuitive, elevated, and effortlessly timeless apartment building.",
+    "ranges": [
+      [
+        192797,
+        192950
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0178",
+    "page": "gallery",
+    "section": "General",
+    "kind": "text",
+    "label": "Skip to content",
+    "value": "Skip to content",
+    "ranges": [
+      [
+        838,
+        853
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0179",
+    "page": "gallery",
+    "section": "site-header",
+    "kind": "link",
+    "label": "Nouvelle Spaces home",
+    "value": "/",
+    "ranges": [
+      [
+        912,
+        913
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0180",
+    "page": "gallery",
+    "section": "site-header",
+    "kind": "text",
+    "label": "nouvelle",
+    "value": "nouvelle",
+    "ranges": [
+      [
+        949,
+        957
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0181",
+    "page": "gallery",
+    "section": "site-header",
+    "kind": "text",
+    "label": "SPACES",
+    "value": "SPACES",
+    "ranges": [
+      [
+        963,
+        969
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0182",
+    "page": "gallery",
+    "section": "site-header",
+    "kind": "text",
+    "label": "Menu",
+    "value": "Menu",
+    "ranges": [
+      [
+        1065,
+        1069
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0183",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "link",
+    "label": "/",
+    "value": "/",
+    "ranges": [
+      [
+        1153,
+        1154
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0184",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "text",
+    "label": "Home",
+    "value": "Home",
+    "ranges": [
+      [
+        1157,
+        1161
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0185",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "link",
+    "label": "/projects",
+    "value": "/projects",
+    "ranges": [
+      [
+        1174,
+        1183
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0186",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "text",
+    "label": "Projects",
+    "value": "Projects",
+    "ranges": [
+      [
+        1205,
+        1213
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0187",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "link",
+    "label": "/#studio",
+    "value": "/#studio",
+    "ranges": [
+      [
+        1240,
+        1248
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0188",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "text",
+    "label": "The studio",
+    "value": "The studio",
+    "ranges": [
+      [
+        1250,
+        1260
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0189",
+    "page": "gallery",
+    "section": "navigation",
+    "kind": "text",
+    "label": "Let’s talk",
+    "value": "Let’s talk",
+    "ranges": [
+      [
+        1303,
+        1313
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0190",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "The Nouvelle collection / 01",
+    "value": "The Nouvelle collection / 01",
+    "ranges": [
+      [
+        1487,
+        1515
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0191",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Spaces with",
+    "value": "Spaces with",
+    "ranges": [
+      [
+        1563,
+        1574
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0192",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "a point of view.",
+    "value": "a point of view.",
+    "ranges": [
+      [
+        1582,
+        1598
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0193",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Architecture, interiors and imagined worlds.",
+    "value": "Architecture, interiors and imagined worlds.",
+    "ranges": [
+      [
+        1611,
+        1655
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0194",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "A collection of spaces, seen through our lens.",
+    "value": "A collection of spaces, seen through our lens.",
+    "ranges": [
+      [
+        1659,
+        1705
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0195",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "FORM / LIGHT / ATMOSPHERE",
+    "value": "FORM / LIGHT / ATMOSPHERE",
+    "ranges": [
+      [
+        1883,
+        1908
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0196",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "image",
+    "label": "Global Village & Resort - design view 1",
+    "value": {
+      "src": "/assets/collection/global-village-p30-1.webp",
+      "alt": "Global Village & Resort - design view 1"
+    },
+    "ranges": [
+      [
+        2012,
+        2405
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0197",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "image",
+    "label": "Mr Amir Lakhani House - design view 1",
+    "value": {
+      "src": "/assets/collection/amir-lakhani-house-p13-1.webp",
+      "alt": "Mr Amir Lakhani House - design view 1"
+    },
+    "ranges": [
+      [
+        2507,
+        2911
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0198",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Discover the collection",
+    "value": "Discover the collection",
+    "ranges": [
+      [
+        2917,
+        2940
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0199",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "image",
+    "label": "Ocean One Apartment - design view 1",
+    "value": {
+      "src": "/assets/collection/ocean-one-p23-1.webp",
+      "alt": "Ocean One Apartment - design view 1"
+    },
+    "ranges": [
+      [
+        3052,
+        3418
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0200",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Designed to be experienced.",
+    "value": "Designed to be experienced.",
+    "ranges": [
+      [
+        3450,
+        3477
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0201",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "22 projects",
+    "value": "22 projects",
+    "ranges": [
+      [
+        3530,
+        3541
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0202",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "138 perspectives",
+    "value": "138 perspectives",
+    "ranges": [
+      [
+        3558,
+        3574
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0203",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Pause motion",
+    "value": "Pause motion",
+    "ranges": [
+      [
+        3636,
+        3648
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0204",
+    "page": "gallery",
+    "section": "gallery-intro",
+    "kind": "text",
+    "label": "Explore the collection",
+    "value": "Explore the collection",
+    "ranges": [
+      [
+        3679,
+        3701
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0205",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "The portfolio",
+    "value": "The portfolio",
+    "ranges": [
+      [
+        3875,
+        3888
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0206",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "Every space.",
+    "value": "Every space.",
+    "ranges": [
+      [
+        3898,
+        3910
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0207",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "A different story.",
+    "value": "A different story.",
+    "ranges": [
+      [
+        3918,
+        3936
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0208",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "From the first architectural gesture to the smallest interior detail. Step inside each project.",
+    "value": "From the first architectural gesture to the smallest interior detail. Step inside each project.",
+    "ranges": [
+      [
+        3955,
+        4050
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0209",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "End of collection",
+    "value": "End of collection",
+    "ranges": [
+      [
+        27527,
+        27544
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0210",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "Every space begins with possibility.",
+    "value": "Every space begins with possibility.",
+    "ranges": [
+      [
+        27557,
+        27593
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0211",
+    "page": "gallery",
+    "section": "collection",
+    "kind": "text",
+    "label": "What’s yours? ↗",
+    "value": "What’s yours? ↗",
+    "ranges": [
+      [
+        27619,
+        27634
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0212",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "A new perspective starts with a conversation",
+    "value": "A new perspective starts with a conversation",
+    "ranges": [
+      [
+        27764,
+        27808
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0213",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Let’s make",
+    "value": "Let’s make",
+    "ranges": [
+      [
+        27862,
+        27872
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0214",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "room for ideas.",
+    "value": "room for ideas.",
+    "ranges": [
+      [
+        27880,
+        27895
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0215",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "link",
+    "label": "Email the studio",
+    "value": "mailto:Syedain9988@gmail.com",
+    "ranges": [
+      [
+        27933,
+        27961
+      ],
+      [
+        28456,
+        28484
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0216",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Tell us what you have in mind.",
+    "value": "Tell us what you have in mind.",
+    "ranges": [
+      [
+        28035,
+        28065
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0217",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "We’ll explore the possibilities together.",
+    "value": "We’ll explore the possibilities together.",
+    "ranges": [
+      [
+        28069,
+        28110
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0218",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Start a project",
+    "value": "Start a project",
+    "ranges": [
+      [
+        28153,
+        28168
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0219",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Umais Ali",
+    "value": "Umais Ali",
+    "ranges": [
+      [
+        28272,
+        28281
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0220",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "link",
+    "label": "mailto:umais.ali80@gmail.com",
+    "value": "mailto:umais.ali80@gmail.com",
+    "ranges": [
+      [
+        28297,
+        28325
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0221",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "umais.ali80@gmail.com",
+    "value": "umais.ali80@gmail.com",
+    "ranges": [
+      [
+        28327,
+        28348
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0222",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "link",
+    "label": "tel:+923130371049",
+    "value": "tel:+923130371049",
+    "ranges": [
+      [
+        28361,
+        28378
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0223",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Syed Ain",
+    "value": "Syed Ain",
+    "ranges": [
+      [
+        28432,
+        28440
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0224",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "text",
+    "label": "Syedain9988@gmail.com",
+    "value": "Syedain9988@gmail.com",
+    "ranges": [
+      [
+        28486,
+        28507
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0225",
+    "page": "gallery",
+    "section": "contact",
+    "kind": "link",
+    "label": "tel:+923435291533",
+    "value": "tel:+923435291533",
+    "ranges": [
+      [
+        28520,
+        28537
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0226",
+    "page": "gallery",
+    "section": "site-footer",
+    "kind": "link",
+    "label": "/",
+    "value": "/",
+    "ranges": [
+      [
+        28635,
+        28636
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0227",
+    "page": "gallery",
+    "section": "site-footer",
+    "kind": "text",
+    "label": "nouvelle",
+    "value": "nouvelle",
+    "ranges": [
+      [
+        28638,
+        28646
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0228",
+    "page": "gallery",
+    "section": "site-footer",
+    "kind": "text",
+    "label": "SPACES",
+    "value": "SPACES",
+    "ranges": [
+      [
+        28652,
+        28658
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0229",
+    "page": "gallery",
+    "section": "site-footer",
+    "kind": "text",
+    "label": "Architecture. Interiors. Visualization.",
+    "value": "Architecture. Interiors. Visualization.",
+    "ranges": [
+      [
+        28672,
+        28711
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0230",
+    "page": "gallery",
+    "section": "site-footer",
+    "kind": "text",
+    "label": "Back to top ↑",
+    "value": "Back to top ↑",
+    "ranges": [
+      [
+        28730,
+        28743
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0231",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Begin a conversation",
+    "value": "Begin a conversation",
+    "ranges": [
+      [
+        28927,
+        28947
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0232",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Your next space.",
+    "value": "Your next space.",
+    "ranges": [
+      [
+        28976,
+        28992
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0233",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Share a few details to prepare an email to the studio.",
+    "value": "Share a few details to prepare an email to the studio.",
+    "ranges": [
+      [
+        29000,
+        29054
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0234",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Name",
+    "value": "Name",
+    "ranges": [
+      [
+        29089,
+        29093
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0235",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Email",
+    "value": "Email",
+    "ranges": [
+      [
+        29172,
+        29177
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0236",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Phone",
+    "value": "Phone",
+    "ranges": [
+      [
+        29271,
+        29276
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0237",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "(optional)",
+    "value": "(optional)",
+    "ranges": [
+      [
+        29283,
+        29293
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0238",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Tell us about your project",
+    "value": "Tell us about your project",
+    "ranges": [
+      [
+        29380,
+        29406
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0239",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Prepare email",
+    "value": "Prepare email",
+    "ranges": [
+      [
+        29528,
+        29541
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0240",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Nothing is sent here. You’ll review and send the message in your email app.",
+    "value": "Nothing is sent here. You’ll review and send the message in your email app.",
+    "ranges": [
+      [
+        29586,
+        29661
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0241",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Your draft is ready. Open your email app to review and send it.",
+    "value": "Your draft is ready. Open your email app to review and send it.",
+    "ranges": [
+      [
+        29719,
+        29782
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0242",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Open email draft ↗",
+    "value": "Open email draft ↗",
+    "ranges": [
+      [
+        29826,
+        29844
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0243",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Copy message",
+    "value": "Copy message",
+    "ranges": [
+      [
+        29892,
+        29904
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0244",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Or email",
+    "value": "Or email",
+    "ranges": [
+      [
+        29916,
+        29924
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0245",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "link",
+    "label": "mailto:Syedain9988@gmail.com",
+    "value": "mailto:Syedain9988@gmail.com",
+    "ranges": [
+      [
+        29934,
+        29962
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0246",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "Syedain9988@gmail.com",
+    "value": "Syedain9988@gmail.com",
+    "ranges": [
+      [
+        29964,
+        29985
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0247",
+    "page": "gallery",
+    "section": "inquiry",
+    "kind": "text",
+    "label": "directly.",
+    "value": "directly.",
+    "ranges": [
+      [
+        29990,
+        29999
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0248",
+    "page": "gallery",
+    "section": "project-viewer",
+    "kind": "text",
+    "label": "Project study",
+    "value": "Project study",
+    "ranges": [
+      [
+        30612,
+        30625
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0249",
+    "page": "gallery",
+    "section": "project-viewer",
+    "kind": "text",
+    "label": "Open full-size image ↗",
+    "value": "Open full-size image ↗",
+    "ranges": [
+      [
+        30820,
+        30842
+      ]
+    ]
+  },
+  {
+    "id": "gallery-0250",
+    "page": "gallery",
+    "section": "project-viewer",
+    "kind": "text",
+    "label": "Use ← → to browse · Esc to close",
+    "value": "Use ← → to browse · Esc to close",
+    "ranges": [
+      [
+        30918,
+        30950
+      ]
+    ]
+  }
+]

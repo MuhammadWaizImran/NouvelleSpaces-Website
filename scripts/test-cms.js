@@ -1,0 +1,40 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os');
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'nouvelle-cms-test-'));process.env.CMS_DATA_DIR=dir;
+const crypto=require('node:crypto');const password=crypto.randomBytes(20).toString('hex');const salt=crypto.randomBytes(32).toString('hex');fs.writeFileSync(path.join(dir,'admin.json'),JSON.stringify({username:'testadmin',salt,hash:crypto.scryptSync(password,salt,64,{N:32768,r:8,p:1,maxmem:64*1024*1024}).toString('hex')}));
+const server=require('../server');
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const base=`http://127.0.0.1:${server.address().port}`;let cookie='',csrf='';
+async function req(route,method='GET',data,opts={}){const r=await fetch(base+route,{method,headers:{Origin:base,...(cookie?{Cookie:cookie}:{}),...(csrf?{'X-CSRF-Token':csrf}:{}),...(data?{'Content-Type':'application/json'}:{}),...opts.headers},body:data?JSON.stringify(data):undefined});const ct=r.headers.get('content-type')||'';return {status:r.status,value:ct.includes('json')?await r.json():await r.text(),r};}
+try{
+ assert.equal((await req('/api/admin/state')).status,401);
+ assert.equal((await req('/cms-data/state.json')).status,404);
+ assert.equal((await req('/cms/catalog.json')).status,404);
+ let r=await req('/api/admin/login','POST',{username:'testadmin',password});assert.equal(r.status,200);cookie=r.r.headers.get('set-cookie').split(';')[0];csrf=r.value.csrf;
+ assert.ok(r.r.headers.get('set-cookie').includes('HttpOnly'));
+ assert.equal((await req('/api/admin/setup','POST',{username:'other',password})).status,404);
+ let s=(await req('/api/admin/state')).value;assert.equal(s.draft.projects.length,22);
+ const field=s.catalog.find(f=>f.page==='home'&&f.kind==='text'&&f.value==='Nouvelle');assert.ok(field);
+ s.draft.overrides[field.id]='Test <script>alert(1)</script>';
+ const project=structuredClone(s.draft.projects[0]);project.id='test-added-project';project.title='CMS test project';s.draft.projects.push(project);
+ assert.equal((await req('/api/admin/draft','PUT',{version:s.version,content:s.draft},{headers:{Origin:'https://evil.example'}})).status,403);
+ r=await req('/api/admin/draft','PUT',{version:s.version,content:s.draft});assert.equal(r.status,200);s=r.value;
+ assert.equal((await req('/api/admin/draft','PUT',{version:s.version-1,content:s.draft})).status,409);
+ assert.equal((await req('/assets/projects.json')).value.length,22);
+ assert.equal((await req('/assets/projects.json?preview=1')).value.length,23);
+ assert.ok((await req('/?preview=1')).value.includes('Test &lt;script&gt;alert(1)&lt;/script&gt;'));
+ assert.ok((await req('/projects?preview=1')).value.includes('CMS test project'));
+ r=await req('/api/admin/publish','POST',{version:s.version});assert.equal(r.status,200);s=r.value;
+ assert.equal((await req('/assets/projects.json')).value.length,23);
+ assert.ok((await req('/projects')).value.includes('CMS test project'));
+ assert.ok(JSON.parse(fs.readFileSync(path.join(dir,'state.json'),'utf8')).published.projects.length===23);
+ r=await req('/api/admin/restore','POST',{id:s.history[0].id,version:s.version});assert.equal(r.status,200);s=r.value;assert.equal(s.draft.projects.length,22);
+ assert.equal((await req('/assets/projects.json')).value.length,23);
+ s.draft.projects[0].images[0].src='/assets/../../.env.local';assert.equal((await req('/api/admin/draft','PUT',{version:s.version,content:s.draft})).status,400);
+ let up=await fetch(base+'/api/admin/upload',{method:'POST',headers:{Origin:base,Cookie:cookie,'X-CSRF-Token':csrf},body:Buffer.from('<svg><script>bad</script></svg>')});assert.equal(up.status,400);
+ up=await fetch(base+'/api/admin/upload',{method:'POST',headers:{Origin:base,Cookie:cookie,'X-CSRF-Token':csrf},body:fs.readFileSync(path.join(__dirname,'../assets/hero/pool-poster.jpg'))});assert.equal(up.status,201);const upload=await up.json();assert.equal((await fetch(base+upload.src)).status,200);
+ const range=await fetch(base+'/assets/hero/pool.mp4',{headers:{Range:'bytes=0-15'}});assert.equal(range.status,206);assert.equal((await range.arrayBuffer()).byteLength,16);
+ await req('/api/admin/logout','POST',{});assert.equal((await req('/api/admin/state')).status,401);assert.equal((await req('/?preview=1')).status,401);
+ r=await req('/api/admin/login','POST',{username:'testadmin',password});assert.equal(r.status,200);
+ console.log('PASS: predefined login, disabled registration, secure sessions, authentication, CSRF, draft isolation, escaped page editing, add project, publish, restore, persistent storage, version conflicts, media upload validation, private paths, video ranges and login.');
+}finally{server.closeAllConnections();await new Promise(r=>server.close(r));}
+})().catch(e=>{console.error(e);process.exitCode=1;});

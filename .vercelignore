@@ -1,0 +1,9 @@
+.git/
+.vercel/
+.env*
+cms-data/
+dist/
+node_modules/
+docs/
+*.log
+cleanup-report.json
