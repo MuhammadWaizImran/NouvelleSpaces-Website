@@ -20,7 +20,7 @@ function validate(content){
  const text=(value,max=1000)=>typeof value==='string'&&value.length<=max;
  function asset(src,video=false){
   const local=/^\/assets\/[\w./ -]+$/.test(src)&&!src.split('/').includes('..');
-  const upload=/^\/api\/media\/[a-f\d-]+\.(png|jpg|webp|avif|gif|mp4)$/i.test(src);
+  const upload=/^\/api\/media\/[a-z\d._-]{1,220}\.(png|jpe?g|webp|avif|gif|mp4)$/i.test(src);
   if(!text(src,700)||(!local&&!upload)||!new RegExp(video?'\\.mp4$':'\\.(webp|png|jpe?g|avif|gif)$','i').test(src))throw new Error('Choose an existing image or uploaded MP4 file');
  }
  const ids=new Set();
