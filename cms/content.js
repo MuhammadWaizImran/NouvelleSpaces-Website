@@ -26,6 +26,9 @@ function render(page,content,preview=false) {
  html=html.replace(/<title>[\s\S]*?<\/title>/,()=>`<title>${esc(settings[page==='home'?'homeTitle':'galleryTitle'])}</title>`).replace(/(<meta name="description" content=")[^"]*/,(_,prefix)=>prefix+esc(settings[page==='home'?'homeDescription':'galleryDescription']));
  html=html.replace(/<body\b/,`<body data-inquiry-email="${esc(settings.inquiryEmail)}"`);
  if(page==='home') {
+  // Preserve the rotating logo surround while using the studio's own wordmark.
+  html=html.replace(/(<div class="header-logo_bg b-desk w-embed">)<svg[\s\S]*?<\/svg>/,`$1<svg width="100%" height="100%" viewBox="0 0 120 120" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><path id="studio-ring" d="M60,13 a47,47 0 1,1 -0.01,0"/></defs><text font-family="Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="2.2"><textPath href="#studio-ring" textLength="290" lengthAdjust="spacing">NOUVELLE SPACES ? ARCHITECTURE ? </textPath></text></svg>`);
+
   for(const [tab,key] of [['day','day'],['night','night']]) {
    const re=new RegExp(`<video([^>]*data-hero-video="${tab}"[^>]*)>[\\s\\S]*?<\\/video>`);
    html=html.replace(re,(_,attrs)=>`<video${attrs.replace(/ poster="[^"]*"/,'')} poster="${esc(settings[key+'Poster'])}"><source src="${esc(settings[key+'Video'])}" type="video/mp4"></video>`);
