@@ -28,3 +28,26 @@ a[aria-label="Projects Gallery"].nav-item{padding:10px 16px;border:1px solid cur
 
 /* Remove appointment booking from every homepage breakpoint and section. */
 [data-modal-cta-btn="book-a-call"],[data-modal-cta="book-a-call"]{display:none!important}
+
+/* Mobile refinements use pixels where the cinematic rem scale becomes too small. */
+@media(max-width:991px){
+  .p1{font-size:14px;line-height:1.7}
+  .header-nav_list.f-mob .nav-item{min-height:44px;display:flex;align-items:center}
+  .ns-video-control{min-height:44px;bottom:max(20px,env(safe-area-inset-bottom))}
+  .footer-s_contact a{min-height:44px;overflow-wrap:anywhere}
+  .apart-half-2>div:last-child{width:calc(100% - 32px)!important;margin-bottom:32px!important}
+  .apart-half-2>div:last-child>div{padding:20px!important}
+  .apart-half-2>div:last-child>div>div{font-size:10px!important;line-height:1.6}
+  .apart-half-2 h3{font-size:28px!important;line-height:1.15}
+  .apart-half-2 p{font-size:14px!important;line-height:1.6!important}
+  .modal_menu_list{padding-bottom:env(safe-area-inset-bottom)}
+}
+@media(max-width:479px){
+  .p1{font-size:14px}
+  .footer-s_contact .l1{font-size:11px}
+  .ns-video-control{right:16px;font-size:12px}
+}
+@media(orientation:landscape) and (max-width:991px) and (pointer:coarse){
+  .landscape-cover{display:none!important}
+  body{overflow:auto!important}
+}

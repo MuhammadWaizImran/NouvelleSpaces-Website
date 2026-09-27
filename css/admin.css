@@ -4,5 +4,29 @@
 
 .project-form-grid>div,.admin-main,.toolbar{min-width:0}
 #project-error{overflow-wrap:anywhere}
+#project-dialog{overscroll-behavior:contain}
+@media(max-width:760px){
+  .sidebar nav button,.sidebar-bottom a,.sidebar-bottom button,.card-actions button,.close{min-height:44px}
+  .close{min-width:44px;flex-shrink:0}
+  .sidebar-bottom{align-items:center;flex-wrap:wrap}
+  .admin-header{padding:14px 16px}
+  .toolbar{gap:8px}.toolbar>*{font-size:11px}
+  .toolbar .quiet-button{font-size:10px}
+  .page-heading{gap:16px}.page-heading h2{overflow-wrap:anywhere}
+  .edit-image input{font-size:16px}
+  .dialog-heading{gap:12px}
+  dialog{max-height:calc(100dvh - 24px)}
+  .dialog-footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+  .notice,.empty-state{overflow-wrap:anywhere}
+}
+@media(max-width:380px){
+  .edit-images{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr}
+  .stat{display:flex;align-items:center;gap:16px}
+  .stat span{font-size:10px}
+  .admin-content{padding-inline:16px}
+  .auth-art{padding:28px 24px}.auth-art h1{font-size:42px}
+  .dialog-footer button.primary{flex-basis:100%}
+}
 .dialog-footer{position:sticky;bottom:-22px;background:#f8f8f3;padding-bottom:16px;z-index:2}
 @media(max-width:760px){.page-heading{flex-wrap:wrap}.toolbar{width:100%}.toolbar button{flex:1;min-height:44px}.section-tools>div{width:100%}.section-tools .secondary{min-height:44px}.dialog-footer{flex-wrap:wrap}.dialog-footer button{min-height:44px;flex:1}.edit-images{max-height:none}.admin-header{position:sticky}.field-meta{flex-wrap:wrap}input,textarea,select{font-size:16px}}

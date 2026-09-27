@@ -57,3 +57,35 @@ body.motion-paused .project-image{transform:none!important}
 
 /* A restrained editorial face keeps gallery headings elegant and readable. */
 h1,h2,h3{font-weight:500;letter-spacing:-.02em}
+
+/* Keep navigation, project details and contact forms usable on narrow screens. */
+@media(max-width:1000px){
+  .project-meta>div,.contact-top>div,.viewer-info{min-width:0}
+  .project-meta h2,.viewer-info h2{overflow-wrap:anywhere}
+}
+@media(max-width:700px){
+  .menu-toggle,.site-header nav a,#motion-toggle{min-height:44px}
+  .menu-toggle{min-width:76px;justify-content:space-between;gap:16px}
+  .site-header nav{max-height:calc(100dvh - 82px);overflow-y:auto}
+  .project-description,.collection-heading>p,.gallery-heading>p{font-size:13px}
+  .project-meta{gap:12px}.project-meta>div{flex:1}
+  .project-description{margin-left:0}
+  .contact-top{align-items:flex-start}.round-link{flex-shrink:0}
+  .contact-people a{overflow-wrap:anywhere;min-height:44px;display:flex;align-items:center}
+  input,textarea{font-size:16px}
+  dialog{max-height:calc(100dvh - 24px);overscroll-behavior:contain}
+  #project-viewer{height:100dvh;padding-bottom:max(20px,env(safe-area-inset-bottom))}
+  .viewer-top{height:auto;min-height:50px;padding-right:44px}
+  .viewer-top .eyebrow{font-size:9px}
+  .viewer-stage{height:48svh;min-height:230px}
+  .viewer-info h2{font-size:clamp(32px,9vw,43px)}
+  .thumbnails{flex-wrap:nowrap;max-height:none;overflow-x:auto;overflow-y:hidden;padding:6px 2px 12px}
+  .thumbnails button{width:72px;height:60px}
+}
+@media(max-width:360px){
+  .section-pad{padding-left:18px;padding-right:18px}
+  .site-header{padding-inline:18px}
+  .gallery-heading h1{font-size:48px}
+  .collection-heading h2{font-size:40px}
+  .contact-top{flex-wrap:wrap}
+}
