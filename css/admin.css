@@ -30,3 +30,16 @@
 }
 .dialog-footer{position:sticky;bottom:-22px;background:#f8f8f3;padding-bottom:16px;z-index:2}
 @media(max-width:760px){.page-heading{flex-wrap:wrap}.toolbar{width:100%}.toolbar button{flex:1;min-height:44px}.section-tools>div{width:100%}.section-tools .secondary{min-height:44px}.dialog-footer{flex-wrap:wrap}.dialog-footer button{min-height:44px;flex:1}.edit-images{max-height:none}.admin-header{position:sticky}.field-meta{flex-wrap:wrap}input,textarea,select{font-size:16px}}
+@media(max-width:760px){
+  .admin-header{position:relative;gap:12px}
+  .toolbar{display:grid;grid-template-columns:1fr 1fr}
+  .toolbar>*{justify-content:center;text-align:center;font-size:11px}
+  .sidebar{padding:20px 18px 12px}
+  .sidebar nav{margin-top:18px;padding-bottom:8px;scroll-snap-type:x proximity}
+  .sidebar nav button{scroll-snap-align:start;min-height:44px}
+  .sidebar-bottom{padding-top:8px;margin-top:4px;font-size:11px}
+  .page-heading p,.notice{font-size:12px}
+  .admin-content{padding-top:28px}
+  .project-form-grid textarea{min-height:120px}
+  .media-item img,.media-item video{height:110px}
+}

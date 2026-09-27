@@ -89,3 +89,42 @@ h1,h2,h3{font-weight:500;letter-spacing:-.02em}
   .collection-heading h2{font-size:40px}
   .contact-top{flex-wrap:wrap}
 }
+
+/* A shorter, calmer opening and a touch-first collection on phones. */
+@media(max-width:700px){
+  .site-header{position:sticky;top:0;height:72px;padding-inline:20px}
+  .site-header nav{top:72px;max-height:calc(100dvh - 72px)}
+  .gallery-intro{padding:30px 20px 0}
+  .gallery-intro .eyebrow{font-size:8px;gap:10px}
+  .gallery-heading{margin:24px auto 12px}
+  .gallery-heading h1{font-size:clamp(45px,11.8vw,68px);line-height:1.02;letter-spacing:-.04em}
+  .gallery-heading>p{font-size:12px;line-height:1.7;margin-top:18px}
+  .gallery-scene{height:250px;margin:18px -10px 0;perspective:none}
+  .scene-frame{animation:none;will-change:auto;box-shadow:0 12px 24px #10071144}
+  .scene-main{height:90%;top:0;width:48%;left:26%}
+  .scene-left,.scene-right{height:57%;top:24%;transform:none}
+  .scene-caption{font-size:14px}
+  .gallery-intro-bottom{margin-top:12px;padding:14px 0;font-size:8px;gap:6px}
+  .collection{padding:44px 20px}
+  .collection-heading h2{font-size:40px}
+  .collection-heading>p{font-size:13px;line-height:1.8}
+  .filter-bar{gap:10px;margin-bottom:26px}
+  .filter-bar>div{width:calc(100% + 40px);margin-inline:-20px;padding:3px 20px 12px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}
+  .filter-bar button{flex-shrink:0;font-size:11px;padding:10px 16px}
+  .project-card,.project-card:nth-child(n){margin:0 0 36px}
+  .project-card:nth-child(n) .project-image img{aspect-ratio:4/3}
+  .project-meta{margin-top:16px;padding-top:16px}
+  .project-meta h2{font-size:30px;line-height:1.08}
+  .project-description{font-size:13px;margin-top:12px}
+  .image-cta{opacity:1;transform:none;padding:10px 13px;right:12px;bottom:12px;gap:18px}
+  .project-card.is-entering{animation:none}
+  .contact{padding:48px 20px}
+  .contact-top{margin-top:24px;gap:20px;flex-direction:column}
+  .contact h2{font-size:48px}
+  .contact-people{gap:28px;margin-top:36px;padding-top:25px}
+  .site-footer{padding:28px 20px;gap:22px}
+  #project-viewer{padding:12px 16px 24px}
+  .viewer-top{position:sticky;top:-12px;background:var(--navy);z-index:3;padding-block:10px}
+  .viewer-top .dialog-close{top:4px;right:0}
+  .viewer-stage{height:45svh;min-height:220px}
+}

@@ -1,4 +1,6 @@
 function initPreloader() {
+    // The mobile homepage has a native scrolling layout and its own small reveal.
+    if (document.querySelector('#mobile-home')) return;
     let e = !1;
     try {
         e = sessionStorage.getItem("hasVisited")
