@@ -9,6 +9,6 @@ module.exports=async(req,res)=>{
   if(preview&&!auth.session(req)){res.statusCode=401;return res.end('Sign in at /admin to preview drafts.');}
   const state=(await loadState()).state,content=state[preview?'draft':'published'];let html=render(page,content,preview);
   html=html.replace('</head>',`<style id="cms-theme">${theme(content.settings)}</style>${page==='gallery'?`<script>window.__NOUVELLE_PROJECTS__=${JSON.stringify(content.projects.filter(project=>project.published!==false)).replace(/</g,'\\u003c')}</script>`:''}</head>`);
-  res.statusCode=200;res.setHeader('Content-Type','text/html; charset=utf-8');res.setHeader('Cache-Control',preview?'private, no-store':'public, s-maxage=15, stale-while-revalidate=60');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');if(preview)res.setHeader('X-Robots-Tag','noindex, nofollow');res.end(req.method==='HEAD'?undefined:html);
+  res.statusCode=200;res.setHeader('Content-Type','text/html; charset=utf-8');res.setHeader('Cache-Control','private, no-store');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');if(preview)res.setHeader('X-Robots-Tag','noindex, nofollow');res.end(req.method==='HEAD'?undefined:html);
  }catch(error){res.statusCode=500;res.end('Website content is temporarily unavailable.');}
 };

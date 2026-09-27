@@ -1,19 +1,20 @@
 'use strict';
 const crypto=require('node:crypto');
-const {get,put,list}=require('@vercel/blob');
+const {get,put,list,BlobPreconditionFailedError}=require('@vercel/blob');
 const seed=require('../cms/seed.json');
 const {catalog,defaults}=require('../cms/content');
 const STATE_PATH='cms/state.json';
 const clone=value=>JSON.parse(JSON.stringify(value));
 const initial=()=>({version:1,published:clone(seed),draft:clone(seed),history:[]});
 async function loadState(){
- const result=await get(STATE_PATH,{access:'private'});
+ const result=await get(STATE_PATH,{access:'private',useCache:false});
  if(!result||result.statusCode!==200)return {state:initial(),etag:null};
- return {state:JSON.parse(await new Response(result.stream).text()),etag:result.blob.etag};
+ // Compressed JSON responses have a weak HTTP ETag; conditional writes need the original strong tag.
+ return {state:JSON.parse(await new Response(result.stream).text()),etag:result.blob.etag.replace(/^W\//,'')};
 }
 async function writeState(state,etag){
  try{return await put(STATE_PATH,JSON.stringify(state),{access:'private',contentType:'application/json',allowOverwrite:true,...(etag?{ifMatch:etag}:{})});}
- catch(error){if(error?.name==='BlobPreconditionFailedError')throw Object.assign(new Error('Another tab saved changes. Reload before saving.'),{status:409});throw error;}
+ catch(error){if(error instanceof BlobPreconditionFailedError)throw Object.assign(new Error('Another tab saved changes. Reload before saving.'),{status:409});throw error;}
 }
 function validate(content){
  if(!content||!Array.isArray(content.projects)||content.projects.length>500||!content.overrides||typeof content.overrides!=='object'||!content.settings)throw new Error('Invalid content document');
